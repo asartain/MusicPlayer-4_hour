@@ -1,0 +1,21 @@
+.button{
+    width: 40px;
+    height: 40px;
+    border: 0px solid transparent;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button > svg{
+    font-size: 150%;
+}
+
+.button:hover{
+    filter: brightness(0.8)
+}
+
+.rewind{
+    transform: rotate(180deg);
+}

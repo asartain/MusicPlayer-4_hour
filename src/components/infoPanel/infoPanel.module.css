@@ -1,0 +1,62 @@
+.info{
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: rgb(47, 38, 83);
+    color: rgb(204, 205, 221);
+    box-sizing: border-box;
+    padding: 1rem;
+    display: grid;
+    grid-template-areas: 
+    "data lyrics"
+    "img lyrics";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+
+.noInfo{
+    height: calc(100vh - 100px);
+    background-color: rgb(47, 38, 83);
+    color: rgb(204, 205, 221);
+    text-align: center;
+}
+
+.noInfo > div{
+    padding-top: 30vh;
+}
+
+.image{
+    grid-area: img;
+    max-width: 100%;
+    max-height: 100%;  
+}
+
+.image > img{
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.data{
+    grid-area: data;
+}
+
+.lyrics{
+    grid-area: lyrics;
+    overflow: auto;
+    padding: 1rem;
+    height: calc(100vh - 100px - 4rem)
+}
+
+.lyricsTitle{
+    font-size: 150%;
+}
+
+.title{
+    font-size: 200%;
+    text-transform: capitalize;
+}
+
+.artist{
+    font-size: 150%;
+    text-transform: capitalize;
+}

@@ -1,0 +1,29 @@
+.ControlContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(28, 23, 49);
+    align-items: center;
+}
+
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.time{
+    width: 100%;
+}
+
+.time > input{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.remaining{
+    color: rgb(204, 205, 221);
+}

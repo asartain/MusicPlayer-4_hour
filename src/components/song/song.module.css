@@ -1,0 +1,29 @@
+.song{
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color: rgb(28, 23, 49);
+}
+
+.title{
+    font-size: 150%;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(204, 205, 221);
+    text-transform: capitalize;
+}
+
+.artist{
+    color: rgb(104, 104, 104);
+    text-align: right;
+    text-transform: capitalize;
+}
+
+.song:hover{
+    filter: brightness(1.4);
+}
+
+.selected{
+    filter: brightness(1.4);
+}

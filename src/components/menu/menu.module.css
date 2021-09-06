@@ -1,0 +1,18 @@
+.menu{
+    height: calc(100vh - 5rem);
+    overflow: auto;
+    background-color: rgb(28, 23, 49);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(28, 23, 49);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(204, 205, 221);
+    outline: 1px solid rgb(18, 15, 31);
+}
